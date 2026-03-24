@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>trabalhando com tabelas</title>
+</head>
+<body>
+<h1>Trabalhando com tabelas</h1>
+<table border="1">
+  <tr>
+    <th>Titulo 1</th>
+    <th>Titulo 2</th>
+    <th>Titulo 3</th>	
+  </tr>
+<tr>
+    <td>celula 1</td>
+    <td>celula 2</td>
+    <td>celula 3</td>
+  </tr>
+<tr>
+    <td>celula 1</td>
+    <td>celula 2</td>
+    <td>celula 3</td>
+  </tr>
+
+  <tr>
+    <td>celula 4</td>
+    <td>celula 5</td>
+    <td>celula 6</td>
+  </tr>
+</table>
+<br /><br /><br /> 
+
+<table border="1">
+    <caption>Alguns super-heróis</caption>
+    <thead  bgcolor="#2F4F4F"> <tr> <th>Super-herói <th>Criador <th>Ano
+    <tfoot> <tr> <th>Super-herói <th>Criador <th>Ano
+    <tbody>
+        <tr>
+            <td  bgcolor="#2F4F4F">Batman
+            <td>
+                Bob Kane<br />
+                Bill Finger
+            <td>1939
+        <tr> <td>Green Arrow <td>Mort<br>George<td>1941
+        <tr> <td>Superman <td>Jerry<br>Joe<td>1938
+</table><br /><br />
+
+<table border="1">
+    <tr>
+		<th>Super-herói</th><th>Criador</th><th>Ano</th>
+	</tr>
+        <tr>
+            <td>Batman
+            <td>
+                Bob Kane<br />
+                Bill Finger
+            <td>1939
+        <tr> <td>Green Arrow <td>Mort<br>George<td>1941
+        <tr> <td>Superman <td>Jerry<br>Joe<td>1938
+        <tr> <th>Super-herói <th>Criador <th>Ano
+
+</table>
+<h1>Mesclando Colunas</h1>
+<table border="1">
+<thead>
+    <tr>
+		<th colspan="3">Mesclando Colunas</th>
+	</tr>
+</thead>
+<tbody>
+        <tr><td>Coluna 1</td><td>Coluna 2</td><td>Coluna 3</td></tr>
+        <tr><td>Coluna 1</td><td>Coluna 2</td><td>Coluna 3</td></tr>
+</tbody>
+</table>
+<h1>Mesclando Linhas</h1>
+<table border="1">
+<thead>
+    <tr><th>Coluna 1</th><th>Coluna 2</th><th>Coluna 3</th></tr>
+</thead>
+<tbody>
+        <tr><td rowspan="3">Coluna 1</td><td>Coluna 2</td><td>Coluna 3</td></tr>
+        <tr><td>Coluna 2</td><td>Coluna 3</td></tr>
+        <tr><td>Coluna 2</td><td>Coluna 3</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>
